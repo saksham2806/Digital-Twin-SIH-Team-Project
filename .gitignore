@@ -1,0 +1,36 @@
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Runtime telemetry
+data/live_telemetry.csv
+data/fault_control.json
+
+# Generated ML datasets
+data/ml_features*.csv
+data/missions/ml/
+data/missions/ml_residuals/
+
+# Logs
+*.log
+live_monitor*.txt
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
